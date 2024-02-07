@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\gRPC Project\\ToDoGrpc\\ToDoGrpc.csproj": {}
+    "D:\\gRPCProject\\ToDoGrpc\\ToDoGrpc.csproj": {}
   },
   "projects": {
-    "D:\\gRPC Project\\ToDoGrpc\\ToDoGrpc.csproj": {
+    "D:\\gRPCProject\\ToDoGrpc\\ToDoGrpc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\gRPC Project\\ToDoGrpc\\ToDoGrpc.csproj",
+        "projectUniqueName": "D:\\gRPCProject\\ToDoGrpc\\ToDoGrpc.csproj",
         "projectName": "ToDoGrpc",
-        "projectPath": "D:\\gRPC Project\\ToDoGrpc\\ToDoGrpc.csproj",
+        "projectPath": "D:\\gRPCProject\\ToDoGrpc\\ToDoGrpc.csproj",
         "packagesPath": "C:\\Users\\iTi\\.nuget\\packages\\",
-        "outputPath": "D:\\gRPC Project\\ToDoGrpc\\obj\\",
+        "outputPath": "D:\\gRPCProject\\ToDoGrpc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,36 @@
             "Grpc.AspNetCore": {
               "target": "Package",
               "version": "[2.49.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.60.0, )"
+            },
+            "Microsoft.AspNetCore.Grpc.JsonTranscoding": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -69,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
